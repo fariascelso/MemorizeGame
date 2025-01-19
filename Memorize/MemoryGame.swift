@@ -31,7 +31,7 @@ struct MemoryGame<CardContent> where CardContent: Equatable {
                 return index
             }
         }
-        return 0 // FIXME: olhar isso aqui depois
+        return 0 // FIXME: Corrigir posicionamento dos cards
     }
     
     mutating func shuffle() {
