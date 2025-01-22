@@ -13,12 +13,14 @@ struct EmojiMemoryGameView: View {
     var viewModel: EmojiMemoryGame
     
     var body: some View {
-        ScrollView {
-            cards
-                .animation(.default, value: viewModel.cards)
-        }
-        Button("Shuffle") {
-            viewModel.shuffle()
+        VStack {
+            ScrollView {
+                cards
+                    .animation(.default, value: viewModel.cards)
+            }
+            Button("Shuffle") {
+                viewModel.shuffle()
+            }
         }
         .padding()
     }
@@ -55,7 +57,8 @@ struct CardView: View {
                 Text(card.content)
                     .font(.system(size:200))
                     .minimumScaleFactor(0.01)
-                    .aspectRatio(1, contentMode: .fit)
+                // .aspectRatio(1, contentMode: .fit)
+                    .aspectRatio(contentMode: .fit)
             }
                 .opacity(card.isFaceUp ? 1 : 0)
             base.fill()
