@@ -27,36 +27,12 @@
 		9F1438412C9F157800A8A75F /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1438522C9F157900A8A75F /* MemorizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F14385C2C9F157900A8A75F /* MemorizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F6DC74A2CA81E4800F71650 /* Untitled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		9F6DC7492CA81E0B00F71650 /* Exceptions for "Memorize" folder in "Memorize" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Untitled.swift,
-			);
-			target = 9F1438402C9F157800A8A75F /* Memorize */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		9F1438432C9F157800A8A75F /* Memorize */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				9F6DC7492CA81E0B00F71650 /* Exceptions for "Memorize" folder in "Memorize" target */,
-			);
 			path = Memorize;
-			sourceTree = "<group>";
-		};
-		9F1438552C9F157900A8A75F /* MemorizeTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MemorizeTests;
-			sourceTree = "<group>";
-		};
-		9F14385F2C9F157900A8A75F /* MemorizeUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MemorizeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -90,10 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				9F1438432C9F157800A8A75F /* Memorize */,
-				9F1438552C9F157900A8A75F /* MemorizeTests */,
-				9F14385F2C9F157900A8A75F /* MemorizeUITests */,
 				9F1438422C9F157800A8A75F /* Products */,
-				9F6DC74A2CA81E4800F71650 /* Untitled.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,9 +118,6 @@
 			dependencies = (
 				9F1438542C9F157900A8A75F /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				9F1438552C9F157900A8A75F /* MemorizeTests */,
-			);
 			name = MemorizeTests;
 			packageProductDependencies = (
 			);
@@ -167,9 +137,6 @@
 			);
 			dependencies = (
 				9F14385E2C9F157900A8A75F /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				9F14385F2C9F157900A8A75F /* MemorizeUITests */,
 			);
 			name = MemorizeUITests;
 			packageProductDependencies = (
